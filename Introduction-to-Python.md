@@ -16,7 +16,7 @@ Try doing the task in the given and upload it to your respective branches into g
 We will be uploading another set of doc for python containing the above with till then just go through these. 
 ***
 
-#Mandatory Resource:
+# Mandatory Resource:
 * https://github.com/ramrathi/IECSE-ML-Winter18/blob/master/Python_Basic/Python%20Basics.ipynb
 
 
