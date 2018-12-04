@@ -1,7 +1,7 @@
 # Basics of Python
 
 We will be using Python 3 for all the contents.
-This is the link to our documentation for python basics people who are new or not regular to python learn through these material , [Python Basics](https://github.com/ramrathi/IECSE-ML-Winter18/tree/master/Python_Basic) we will be futher updating more content on advanced python concepts.
+This is the documentation for python targeting basics, people who are new to programming or don't know or remember python can easily learn through these material ,link::click here ->[Python Basics](https://github.com/ramrathi/IECSE-ML-Winter18/tree/master/Python_Basic) we will be further updating more content on advanced python concepts.
 
 ***
 
