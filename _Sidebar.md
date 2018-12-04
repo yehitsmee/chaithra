@@ -4,7 +4,7 @@
 
 ### Week 1
 1. [Introduction to Git](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Git-Intro)
-2. [Basics of Python](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Python-Basics)
+2. [Basics of Python](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Introduction-to-Python)
 3. [Numpy](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Numpy)
 4. [Pandas](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Pandas)
 5. [Matplotlib](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Matplotlib)
