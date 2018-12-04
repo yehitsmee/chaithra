@@ -1,1 +1,1 @@
-#Matplotlib
+/*At this point, we know how to import data by using the Pandas library. We also know how to interpret these data into arrays and manipulating them by using Numpy library. But what if we want to visualize this data? Here comes the use of matplotlib.*/
