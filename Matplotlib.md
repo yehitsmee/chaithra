@@ -207,9 +207,3 @@ ax.set(xlim=(0, 10), ylim=(-2, 2),
        xlabel='x', ylabel='sin(x)',
        title='A Simple Plot');
 ```
-
-## Spines
-
-
-
- 
