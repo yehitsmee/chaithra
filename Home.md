@@ -36,7 +36,7 @@ Don't worry if you don't know what these things are till now. You'll get detaile
 
 ### 4. I don't know Python, can I still do this project?
 YES.  
-Don't worry, the amount of python shown to you in the first week, [here](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Python-Basics), is about all the python you need.
+Don't worry, the amount of python shown to you in the first week, [here](https://github.com/ramrathi/IECSE-ML-Winter18/wiki/Introduction-to-Python), is about all the python you need.
 If we feel that we need to add a bit more, we will and inform you about it. 
 Apart from that it's highly recommended that you look up a bit of python on your own too!
 
