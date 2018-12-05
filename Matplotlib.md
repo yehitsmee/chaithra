@@ -66,7 +66,7 @@ plt.show()
 
 > Observe that the coordinates in the above figure is (1,3),(2,4),(3,5).
 
-**Working on Multiple figure and Axes**
+**Working on Multiple figure and Axes(Subplots)**
 
 ```python
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ plt.figure(2)                # a second figure
 plt.plot([4, 5, 6])          # creates a subplot(111) by default
 
 plt.figure(1)                # figure 1 current; subplot(212) still current
-plt.subplot(211)             # make subplot(211) in figure1 current
+plt.add_subplot(211)             # make subplot(211) in figure1 current
 plt.title('Easy as 1, 2, 3') # subplot 211 title
 ```
 > Observe how the figure is used to address the specific plot that you want to edit. This is one of the major use of having figure.  
@@ -105,5 +105,11 @@ ax.set_ylabel('label set using axes attribute')
 ax.plot([5,4],[6,3])
 plt.show()
 ```
-> plt.axis([0,6,0,20])  -  This line gives the parameters to the axis, that is 
+> plt.axis([0,6,0,20])  -  This line gives the parameters to the axis, that is the parameters are given as a list that contains 4 values - xmin,xmax,ymin,ymax.  
+> As you will see in the output, the values are incremental and will be according to the best fit of the line. If you want to make it incremental specific to you then use the following attribute: 
+plt.xtick([0.5,1.0,1.5,2.0,3.0]) - this will label the number line in x axis exactly the way it is given in the list.  
+
+**LINES**
+
+
  
