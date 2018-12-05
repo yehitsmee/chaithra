@@ -95,7 +95,6 @@ plt.title('Easy as 1, 2, 3') # subplot 211 title
 > Observe the code below, and notice that label can be set either way. 
 ```python
 import matplotlib.pyplot as plt
-import numpy as np
 fig = plt.figure(1)               #optional
 ax = plt.subplot(211)
 plt.title('Another test')
