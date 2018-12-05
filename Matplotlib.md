@@ -96,11 +96,11 @@ plt.title('Easy as 1, 2, 3') # subplot 211 title
 > In subplots its important to understand the parameters. If the subplot parameters say (2,1,1) then it means that within a 2x1 grid create subplot 1. Hence a 2x1 grid can provide a maximum of 2 subplots and not more. Thus, if the parameter is given as (2,1,4) it will give an error although a parameter like (2,3,4) will be correct. Refer to the figure below :
 ![Different subplot and indexes](https://i.stack.imgur.com/AEGXG.png)   
 
-** To have 1 column of same subplot: **
+ **To have 1 column of same subplot:**
 
 ![Column overlap](https://i.stack.imgur.com/JKbnc.gif)
  
-** To have a row of same subplot: **
+ **To have a row of same subplot:**
 
 ![Row overlap](https://i.stack.imgur.com/hH2vj.gif)
 
@@ -119,11 +119,13 @@ ax.set_ylabel('label set using axes attribute')
 ax.plot([5,4],[6,3])
 plt.show()
 ```
-> plt.axis([0,6,0,20])  -  This line gives the parameters to the axis, that is the parameters are given as a list that contains 4 values - xmin,xmax,ymin,ymax.  
-> As you will see in the output, the values are incremental and will be according to the best fit of the line. If you want to make it incremental specific to you then use the following attribute: 
-plt.xtick([0.5,1.0,1.5,2.0,3.0]) - this will label the number line in x axis exactly the way it is given in the list.  
+> **plt.axis([0,6,0,20])**  -  This line gives the parameters to the axis, that is the parameters are given as a list that contains 4 values - xmin,xmax,ymin,ymax.  
 
-**LINES**
+> As you will see in the output, the values are incremental and will be according to the best fit of the line. If you want to make it incremental specific to you then use the following attribute: 
+
+**plt.xtick([0.5,1.0,1.5,2.0,3.0])** - this will label the number line in x axis exactly the way it is given in the list.  
+
+ **LINES**
 
 
 
