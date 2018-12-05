@@ -54,7 +54,7 @@ plt.plot(1,2,'bo')
 ```
 > The b in 'bo' indicates the color blue and the o indicates the shape of each point. Hence this code prints a blue colored 'o' shaped dot on the location 1,2(x,y).  
 
-**To point Coordinates and join them**
+## To make Coordinates and join them
 
 ```python
 plt.plot([1,2,3],[3,4,5],'bo')
@@ -67,7 +67,7 @@ plt.show()
 
 > Observe that the coordinates in the above figure is (1,3),(2,4),(3,5).
 
-##Working on Multiple figure and Axes(Subplots)
+## Working on Multiple figure and Axes(Subplots)
 
 ```python
 import matplotlib.pyplot as plt
@@ -105,7 +105,7 @@ plt.title('Easy as 1, 2, 3') # subplot 211 title
 
 ![Row overlap](https://i.stack.imgur.com/hH2vj.gif)
 
-##Working with Labels and Axis
+## Working with Labels and Axis
 
 > Text(in general) is an attribute of both the matplotlib.pyplot module and also the axes package.
 > Observe the code below, and notice that label can be set either way. 
@@ -126,7 +126,7 @@ plt.show()
 
 **plt.xtick([0.5,1.0,1.5,2.0,3.0])** - this will label the number line in x axis exactly the way it is given in the list.  
 
- ## LINES
+## LINES
 
 
 
