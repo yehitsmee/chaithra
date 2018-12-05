@@ -92,7 +92,20 @@ plt.title('Easy as 1, 2, 3') # subplot 211 title
 > When the Y axis is not specified, the coordinates are supposed to be stated as say in plt.plot([4,5,6]) gives the coordinates, (4,0) , (5,1) , (6,2).
   
 > plt.subplot(211) can also be written as plt.subplot(2,1,1) which is plt.subplot(nrow,ncol,index) where the index is the position of the figure from left to right.
-**NOTE**: all the values in subplot must be < than 10. 
+**NOTE**: all the values in subplot must be < than 10.   
+
+**Alternately**
+```python
+import matplotlib.pyplot as plt
+
+fig,ax = plt.subplots(2)
+ax[0].plot([1, 2, 3],'bo')
+ax[1].plot([4, 5, 6])
+plt.figure(2)
+plt.plot([2,3])
+ax[1].set_title('Easy as 123')
+```
+> The first approach is a Matlab style interface and the second is an object oriented interface.  
 
 > In subplots its important to understand the parameters. If the subplot parameters say (2,1,1) then it means that within a 2x1 grid create subplot 1. Hence a 2x1 grid can provide a maximum of 2 subplots and not more. Thus, if the parameter is given as (2,1,4) it will give an error although a parameter like (2,3,4) will be correct. Refer to the figure below :
 ![Different subplot and indexes](https://i.stack.imgur.com/AEGXG.png)   
@@ -126,8 +139,76 @@ plt.show()
 
 **plt.xtick([0.5,1.0,1.5,2.0,3.0])** - this will label the number line in x axis exactly the way it is given in the list.  
 
-## LINES
+ ## Using Numpy with matplotlib
 
+We can also use numpy arrays instead of List. Infact this is more favorable as numpy arrays allow more implementation than lists.
+
+```python
+fig = plt.figure()
+ax = plt.axes()
+x = np.linspace(1,10,1000)
+ax.plot(x,np.sin(x))
+ax.plot(x,np.cos(x))             #Can have multiple lines in the same axes.
+plt.show()
+```
+The above should output a sine curve.
+As said earlier, this can also be done as:
+```python
+x = np.linspace(1,10,1000)
+plt.plot(x,np.sin(x))
+plt.plot(x,np.cos(x))            #Can have multiple lines in the same axes
+plt.show()
+```
+We can further integrate Linestyles and colors by doing so: 
+```python
+#for Linestyle
+plt.plot(x,np.sin(x),linestyle = '-')   #equivalent to : plt.plot(x,np.sin(x),linestyle = solid)
+#for color:
+plt.plot(x,np.cos(x),color = 'blue')   #can also mention hexcodes instead
+#for both:
+plt.plot(x,np.sin(x+1),'-g')
+```
+We can also adjust the x and y axis limits as such:
+
+```python
+plt.plot(x, np.sin(x))
+plt.xlim(-1, 11)
+plt.ylim(-1.5, 1.5);
+#alternatively
+plt.axis(-1,11,-1.5,1.5)
+```
+We can also fit the graph to the curve by using **plt.axis('tight')** or also make the aspect ratio equal by: **plt.axis('equal').  
+
+To Construct **Legends**:  
+Use plt.plot() attribute as : plt.plot(x,np.sin(x),'-g',label = 'sinx')
+And to show the legend use , plt.legend()
+
+```python
+plt.plot(x, np.sin(x), '-g', label='sin(x)')
+plt.plot(x, np.cos(x), ':b', label='cos(x)')
+plt.axis('equal')
+
+plt.legend();
+```
+While most plt functions translate directly to ax methods (such as plt.plot() → ax.plot(), plt.legend() → ax.legend(), etc.), this is not the case for all commands. In particular, functions to set limits, labels, and titles are slightly modified. For transitioning between MATLAB-style functions and object-oriented methods, make the following changes:
+
+    plt.xlabel() → ax.set_xlabel()
+    plt.ylabel() → ax.set_ylabel()
+    plt.xlim() → ax.set_xlim()
+    plt.ylim() → ax.set_ylim()
+    plt.title() → ax.set_title()
+
+In the object-oriented interface to plotting, rather than calling these functions individually, it is often more convenient to use the ax.set() method to set all these properties at once:
+
+```python
+ax = plt.axes()
+ax.plot(x, np.sin(x))
+ax.set(xlim=(0, 10), ylim=(-2, 2),
+       xlabel='x', ylabel='sin(x)',
+       title='A Simple Plot');
+```
+
+## Spines
 
 
 
