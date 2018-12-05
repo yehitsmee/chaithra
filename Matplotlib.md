@@ -39,7 +39,8 @@ Each of these axes can be further referred to and made specific changes to. Here
 
 > When using script in python, plt.show() shows all the active graphs in seperate windows. When in interpreter it shows the latest graph(sometimes none at all). 
 
-**Now lets see how to use any one of these axes**
+##Using individual axes
+
 ```python
 import matplotlib.pyplot as plt
 plt.plot(1,2)
@@ -66,7 +67,7 @@ plt.show()
 
 > Observe that the coordinates in the above figure is (1,3),(2,4),(3,5).
 
-**Working on Multiple figure and Axes(Subplots)**
+##Working on Multiple figure and Axes(Subplots)
 
 ```python
 import matplotlib.pyplot as plt
@@ -104,7 +105,7 @@ plt.title('Easy as 1, 2, 3') # subplot 211 title
 
 ![Row overlap](https://i.stack.imgur.com/hH2vj.gif)
 
-**Working with Labels and Axis**
+##Working with Labels and Axis
 
 > Text(in general) is an attribute of both the matplotlib.pyplot module and also the axes package.
 > Observe the code below, and notice that label can be set either way. 
@@ -125,7 +126,7 @@ plt.show()
 
 **plt.xtick([0.5,1.0,1.5,2.0,3.0])** - this will label the number line in x axis exactly the way it is given in the list.  
 
- **LINES**
+ ## LINES
 
 
 
