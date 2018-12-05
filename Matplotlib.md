@@ -216,6 +216,7 @@ Spines are like the boundaries that the cells in Excel sheet. We can change thos
 
 We will be understanding spines by implementing the above image in python.   
 ```python
+"""
 This demo compares:
     - normal axes, with spines on all four sides;
     - an axes with spines only on the left and bottom;
