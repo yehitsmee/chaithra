@@ -39,7 +39,7 @@ Each of these axes can be further referred to and made specific changes to. Here
 
 > When using script in python, plt.show() shows all the active graphs in seperate windows. When in interpreter it shows the latest graph(sometimes none at all). 
 
-##Using individual axes
+## Using individual axes
 
 ```python
 import matplotlib.pyplot as plt
