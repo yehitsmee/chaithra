@@ -1,4 +1,4 @@
-/*At this point, we know how to import data by using the Pandas library. We also know how to interpret these data into arrays and manipulating them by using Numpy library. But what if we want to visualize this data? Enter matplotlib.*/
+At this point, we know how to import data by using the Pandas library. We also know how to interpret these data into arrays and manipulating them by using Numpy library. But what if we want to visualize this data? Enter matplotlib.
 Matplotlib is easily the most used and the easiest to implement among all the libraries in python. Before we start, Disclaimer: Without knowing Numpy, understanding matplotlib is like tasting apple without biting it.
 So Matplotlib can be divided into 3 sections (depending on its use and easy implementation):
 1. Pylab interface (similar to MATLAB) – Pyplot tutorial.
