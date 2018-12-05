@@ -91,8 +91,14 @@ plt.title('Easy as 1, 2, 3') # subplot 211 title
 > When the Y axis is not specified, the coordinates are supposed to be stated as say in plt.plot([4,5,6]) gives the coordinates, (4,0) , (5,1) , (6,2).
   
 > plt.subplot(211) can also be written as plt.subplot(2,1,1) which is plt.subplot(nrow,ncol,index) where the index is the position of the figure from left to right.
-**NOTE**: all the values in subplot must be < than 10.  
+**NOTE**: all the values in subplot must be < than 10. 
 
+> In subplots its important to understand the parameters. If the subplot parameters say (2,1,1) then it means that within a 2x1 grid create subplot 1. Hence a 2x1 grid can provide a maximum of 2 subplots and not more. Thus, if the parameter is given as (2,1,4) it will give an error although a parameter like (2,3,4) will be correct. Refer to the figure below :
+![Different subplot and indexes](https://i.stack.imgur.com/AEGXG.png) 
+> To have 1 column of same subplot:
+![Column overlap](https://i.stack.imgur.com/JKbnc.gif) 
+> To have a row of same subplot:
+![Row overlap](https://i.stack.imgur.com/hH2vj.gif)
 **Working with Labels and Axis**
 
 > Text(in general) is an attribute of both the matplotlib.pyplot module and also the axes package.
