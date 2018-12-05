@@ -53,7 +53,7 @@ plt.plot(1,2,'bo')
 ```
 > The b in 'bo' indicates the color blue and the o indicates the shape of each point. Hence this code prints a blue colored 'o' shaped dot on the location 1,2(x,y).  
 
-**To draw Lines**
+**To point Coordinates and join them**
 
 ```python
 plt.plot([1,2,3],[3,4,5],'bo')
@@ -73,7 +73,7 @@ import matplotlib.pyplot as plt
 
 
 plt.figure(1)                # the first figure
-plt.subplot(211)             # read as 2nd row 1st col 1st subplot.
+plt.subplot(211)             # read as 2nd row 1st col 1st subplot
 plt.plot([1, 2, 3],'bo')
 plt.subplot(212)             # the second subplot in the first figure
 plt.plot([4, 5, 6])
@@ -83,12 +83,15 @@ plt.figure(2)                # a second figure
 plt.plot([4, 5, 6])          # creates a subplot(111) by default
 
 plt.figure(1)                # figure 1 current; subplot(212) still current
-plt.add_subplot(211)             # make subplot(211) in figure1 current
+plt.subplot(211)             # make subplot(211) in figure1 current
 plt.title('Easy as 1, 2, 3') # subplot 211 title
 ```
 > Observe how the figure is used to address the specific plot that you want to edit. This is one of the major use of having figure.  
 
-> When the Y axis is not specified, the coordinates are supposed to be stated as say in plt.plot([4,5,6]) gives the coordinates, (4,0) , (5,1) , (6,2).  
+> When the Y axis is not specified, the coordinates are supposed to be stated as say in plt.plot([4,5,6]) gives the coordinates, (4,0) , (5,1) , (6,2).
+  
+> plt.subplot(211) can also be written as plt.subplot(2,1,1) which is plt.subplot(nrow,ncol,index) where the index is the position of the figure from left to right.
+**NOTE**: all the values in subplot must be < than 10.  
 
 **Working with Labels and Axis**
 
@@ -110,6 +113,8 @@ plt.show()
 plt.xtick([0.5,1.0,1.5,2.0,3.0]) - this will label the number line in x axis exactly the way it is given in the list.  
 
 **LINES**
+
+
 
 
  
