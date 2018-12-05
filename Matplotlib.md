@@ -1,6 +1,7 @@
-At this point, we know how to import data by using the Pandas library. We also know how to interpret these data into arrays and manipulating them by using Numpy library. But what if we want to visualize this data? Enter matplotlib.
+At this point, we know how to import data by using the Pandas library. We also know how to interpret these data into arrays and manipulating them by using Numpy library. But what if we want to visualize this data? Enter matplotlib.  
 Matplotlib is easily the most used and the easiest to implement among all the libraries in python. Before we start, Disclaimer: Without knowing Numpy, understanding matplotlib is like tasting apple without biting it.
-So Matplotlib can be divided into 3 sections (depending on its use and easy implementation):
+So Matplotlib can be divided into 3 sections (depending on its use and easy implementation):  
+
 1. Pylab interface (similar to MATLAB) – Pyplot tutorial.
 2. Matplotlib frontend or API – artist tutorial.
 3. Backends – drawing devices or renderers.
@@ -98,10 +99,11 @@ import matplotlib.pyplot as plt
 fig = plt.figure(1)               #optional
 ax = plt.subplot(211)
 plt.title('Another test')
+plt.axis([0,6,0,20])
 plt.xlabel('Label set using plt module')
 ax.set_ylabel('label set using axes attribute')
 ax.plot([5,4],[6,3])
 plt.show()
 ```
-
+> plt.axis([0,6,0,20])  -  This line gives the parameters to the axis, that is 
  
