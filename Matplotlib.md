@@ -5,6 +5,17 @@ So Matplotlib can be divided into 3 sections (depending on its use and easy impl
 1. Pylab interface (similar to MATLAB) – Pyplot tutorial.
 2. Matplotlib frontend or API – artist tutorial.
 3. Backends – drawing devices or renderers.
+This wiki will be basically covering Pyplot. I would encourage reading up on the artist and the renderers, but its not necessary. The way most of us learnt python was by implementing other stuffs and learning these libraries on the go.   
+
+TIP: Get well versed and used to reading documentations. There are really good Documentations provided(like for this library) while others simply suck. Anyway, this doc should at the least get you started.   
+
+Refer here for installation tutorial:  
+https://matplotlib.org/users/installing.html  
+Youtube:  
+https://www.youtube.com/watch?v=-llHYUMH9Dg  
+
+Lastly this video playlist is amazing for matplotlib, covers more than enough stuffs:  
+https://www.youtube.com/playlist?list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF  
 
 # Pyplot Tutorial
 
@@ -259,7 +270,20 @@ ax[2].xaxis.set_ticks_position('bottom')
 plt.subplots_adjust(hspace=0.5)
 plt.show()
 ```
+There are lots of other things that this library could do, it wouldn't be possible to have it all written down here. Refer to the official docs as and when needed. The best way to learn Python is to implement it along the way. Follow the references given below:
 
-
+## REFERENCES:
+**Official DOCS:**
+https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
+https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
+https://matplotlib.org/tutorials/intermediate/artists.html#sphx-glr-tutorials-intermediate-artists-py
+https://matplotlib.org/tutorials/text/text_intro.html#sphx-glr-tutorials-text-text-intro-py
+https://matplotlib.org/tutorials/text/text_props.html#sphx-glr-tutorials-text-text-props-py
+**Recommended Docs:**
+https://realpython.com/python-matplotlib-guide/
+**Suggested Books for Data Science**
+http://shop.oreilly.com/product/0636920034919.do
+Free online version:
+https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html
 
 
