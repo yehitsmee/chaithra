@@ -274,16 +274,16 @@ There are lots of other things that this library could do, it wouldn't be possib
 
 ## REFERENCES:
 **Official DOCS:**
-https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
-https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py
-https://matplotlib.org/tutorials/intermediate/artists.html#sphx-glr-tutorials-intermediate-artists-py
-https://matplotlib.org/tutorials/text/text_intro.html#sphx-glr-tutorials-text-text-intro-py
-https://matplotlib.org/tutorials/text/text_props.html#sphx-glr-tutorials-text-text-props-py
-**Recommended Docs:**
-https://realpython.com/python-matplotlib-guide/
-**Suggested Books for Data Science**
-http://shop.oreilly.com/product/0636920034919.do
-Free online version:
-https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html
+https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py  
+https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py  
+https://matplotlib.org/tutorials/intermediate/artists.html#sphx-glr-tutorials-intermediate-artists-py  
+https://matplotlib.org/tutorials/text/text_intro.html#sphx-glr-tutorials-text-text-intro-py  
+https://matplotlib.org/tutorials/text/text_props.html#sphx-glr-tutorials-text-text-props-py  
+**Recommended Docs:**  
+https://realpython.com/python-matplotlib-guide/  
+**Suggested Books for Data Science**  
+http://shop.oreilly.com/product/0636920034919.do  
+Free online version:  
+https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html  
 
 
